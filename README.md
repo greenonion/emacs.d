@@ -15,7 +15,7 @@ languages:
 $ ln -s ~/<repos>/emacs.d/modules
 ```
 
-Finally, since we're using [straight.el](), we should add our lockfiles:
+Finally, since we're using [straight.el](https://github.com/raxod502/straight.el), we should add our lockfiles:
 ```bash
 $ mkdir straight
 $ ln -s ~/<repos>/emacs.d/versions straight
