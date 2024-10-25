@@ -10,8 +10,8 @@
   (setq helm-flx-for-helm-find-files nil)
   (helm-flx-mode 1))
 
-(use-package helm-config
-  :straight helm
+(use-package helm
+  :straight t
   :demand t
   :diminish helm-mode
   :bind
