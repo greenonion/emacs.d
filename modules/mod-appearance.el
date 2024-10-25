@@ -57,8 +57,8 @@
   ;; Enable custom neotree theme (all-the-icons must be installed!)
 ;  (doom-themes-neotree-config)
   ;; or for treemacs users
-  (setq doom-themes-treemacs-theme "doom-one")
-  (doom-themes-treemacs-config)
+  ;;(setq doom-themes-treemacs-theme "doom-atom")
+  ;;(doom-themes-treemacs-config)
 
   ;; Corrects (and improves) org-mode's native fontification.
   (doom-themes-org-config))
@@ -69,7 +69,7 @@
   (interactive)
   (when (eq system-type 'darwin)
 ;;    (set-face-attribute 'default t :font "Iosevka 14")
-    (set-frame-font "Iosevka SS08" nil t)
+    (set-frame-font "Iosevka Nerd Font Mono" nil t)
     (set-face-attribute 'default nil :height 140 :weight 'normal)
     ;;(set-face-attribute 'fixed-pitch nil :height 120 :weight 'normal)
 
