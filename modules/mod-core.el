@@ -255,6 +255,7 @@
   :diminish ""
   :config
   (progn
+    (setq undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo")))
     (define-key undo-tree-map (kbd "C-x u") 'undo-tree-visualize)
     (define-key undo-tree-map (kbd "C-/") 'undo-tree-undo)))
 
